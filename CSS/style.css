@@ -1,0 +1,50 @@
+*{
+    background-image: url("../images/laika.jpg");
+    margin: 0;
+    padding: 0;
+}
+    .navbar {
+        display: flexbox;
+        position: sticky;
+        align-items: center;
+        justify-content: center;
+        top: 0px;
+    }
+
+    .nav-list {
+        width: 50px;
+        display: flexbox;
+
+    }
+
+    .nav-list li  {
+        list-style: none;
+        padding: 26px 30px;
+
+    }
+
+    .nav-list li a {
+        text-decoration: none;
+        color: black;
+
+    }
+
+    .nav-list li a :hover {
+        color: bisque;
+
+    }
+
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+
+        .background {
+            background: rgba(0, 0, 0, 0) url("../images/homefavicon.png");
+        }
+
+
+
+
